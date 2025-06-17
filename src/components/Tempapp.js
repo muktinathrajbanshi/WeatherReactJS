@@ -9,7 +9,11 @@ const Tempapp = () => {
                 <div className="inputData">
                     <input 
                     type="search"
-                    className="inputField" />
+                    className="inputField" 
+                    onChange={ (event) => {
+
+                    } }    
+                    />
                 </div>
             </div>
         </>
