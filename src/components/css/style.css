@@ -27,8 +27,14 @@
   position: relative;
 }
 
+.errorMsg {
+  font-size: 18px;
+  background-color: transparent;
+  margin-bottom: 380px;
+}
+
 .inputData {
-  margin-bottom: 185px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +60,7 @@
 
 .info {
   height: 200px;
-  margin-bottom: 6rem;
+  margin-top: 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,12 +70,15 @@
 
 .info .location {
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   background-color: transparent;
+  text-transform: capitalize;
 }
 
 .info .temp {
-  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 35px;
   background-color: transparent;
 }
 
