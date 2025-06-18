@@ -62,10 +62,6 @@
   background-color: transparent;
 }
 
-.info .fa-solid {
-  background-color: transparent;
-}
-
 .info .location {
   font-size: 40px;
   margin-bottom: 40px;
@@ -80,6 +76,43 @@
 .info .tempmin_max {
   font-size: 14px;
   background-color: transparent;
+}
+
+.info .fa-solid {
+  background-color: transparent;
+  animation: moveLeftRight 2000ms infinite linear;
+  -webkit-animation: moveLeftRight 2000ms infinite linear;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-4px) rotate(0deg);
+    -webkit-transform: translateX(-4px) rotate(0deg);
+    -moz-transform: translateX(-4px) rotate(0deg);
+    -ms-transform: translateX(-4px) rotate(0deg);
+    -o-transform: translateX(-4px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(4px) rotate(0deg);
+    -webkit-transform: translateX(4px) rotate(0deg);
+    -moz-transform: translateX(4px) rotate(0deg);
+    -ms-transform: translateX(4px) rotate(0deg);
+    -o-transform: translateX(4px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
 }
 
 .wave {
